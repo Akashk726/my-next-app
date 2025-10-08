@@ -19,7 +19,7 @@ jobs:
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
-          username: ${{ github.repository_owner }}
+          username: akash726
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and push Docker image
@@ -28,5 +28,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/my-next-app:latest
-            ghcr.io/${{ github.repository_owner }}/my-next-app:${{ github.sha }}
+            ghcr.io/akash726/my-next-app:latest
+            ghcr.io/akash726/my-next-app:${{ github.sha }}
