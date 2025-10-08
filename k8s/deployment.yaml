@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nextjs
-        image: ghcr.io/Akashk726/my-next-app:latest
+        image: ghcr.io/akashk726/my-next-app:latest
         ports:
         - containerPort: 3000
         resources:
