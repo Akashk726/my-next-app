@@ -1,5 +1,7 @@
-Next.js Application with Docker, GitHub Actions, and Minikube Deployment
-Overview This repository contains a containerized Next.js application,
+**Next.js Application with Docker, GitHub Actions, and Minikube Deployment**
+
+**Overview**
+This repository contains a containerized Next.js application,
 automated build and deployment workflows using GitHub Actions and GitHub
 Container Registry (GHCR), and Kubernetes manifests for deployment to
 Minikube. The project demonstrates best practices in DevOps, including
